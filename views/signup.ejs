@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="field">
+            <header>
+                <h1>Book Info - Sign Up</h1>
+            </header>
+        </div>
+        <form action="/signup" method="post">
+            <div class="field">
+                <label for="bookname">Book Name:</label>
+                <input type="text" name="bookname">
+            </div>
+            <div class="field">
+                <label for="author">Author Name:</label>
+                <input type="text" name="author">
+            </div>
+            <div class="field">
+                <label for="genre">Genre:</label>
+                <input type="text" name="genre">
+            </div>
+            <div class="field">
+                <label for="rating">Rating:</label>
+                <input type="number" name="rating">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
